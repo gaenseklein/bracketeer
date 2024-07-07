@@ -1,5 +1,4 @@
-# bracketeer
-a plugin for the [micro text editor](https://github.com/zyedidia/micro)
+# bracketeer - a plugin for handling brackets
 
 this plugin aims to facilitate the workflow with brackets. it lets you
 - create corresponding end-bracket on the fly (like the quoter plugin)

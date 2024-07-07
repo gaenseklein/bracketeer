@@ -279,6 +279,8 @@ function init()
 	config.MakeCommand("teststring", test, config.NoComplete)	
 	
 	config.RegisterCommonOption("bracketeer", "quoter",true)
+
+	config.AddRuntimeFile("bracketeer", config.RTHelp, "help/bracketeer.md")
 	
 	config.TryBindKey("Alt-Left", "lua:bracketeer.jump_to_previous_bracket", false)
 	config.TryBindKey("Alt-Right", "lua:bracketeer.jump_to_next_bracket", false)
